@@ -4,22 +4,24 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>replit</title>
+  <title>Metamorpho</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body id="demo">
-  Hello world <br><br>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
+    <h1 style="text-align:center"> Metamorphic NFTs </h1>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
   
-  <script>
-    document.write("Starting encryption");
-    // var encrypted = CryptoJS.AES.encrypt("Message", "Secret Passphrase");
-    // document.write("image_url: ", encrypted);
-  </script>
+    <form style="text-align:center">
+      NFT URI: <input type="text" id="imagename" value="" /> <br>
+      Description Key: <input type="text" id="keyvalue" value="" /><br><br>
+      <input type="button" id="btn" value="Load NFT" />
+    </form>
+    <br />
+  <img id="picture"/>
+  <script src="script.js" ></script>
   
-  <script src="script.js"></script>
-<!--   <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> -->
 </body>
 
 </html>
