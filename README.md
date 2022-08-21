@@ -1,4 +1,6 @@
-# Datamorphic
+# Datamorpho
+
+ETHMexico Hackathon Submission: August 19 — 21, 2022
 
 We define a new protocol for NFTs so it allows dynamic information.
 
